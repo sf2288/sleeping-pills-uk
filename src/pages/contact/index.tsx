@@ -1,11 +1,11 @@
 import React from "react";
 import dynamic from 'next/dynamic';
 
-const HomeComponent = dynamic(() => import('@/components/Home'))
+const ContactComponent = dynamic(() => import('@/components/Contact'))
 
 const Index = () => {
 
-  return <HomeComponent />;
+    return <ContactComponent />;
 };
 
 export default Index;
